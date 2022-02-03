@@ -1,4 +1,4 @@
-# AB-Testeing
+# AB-Testing
 Data exploration and analytics over AB testing 
 # Problem
 ...
