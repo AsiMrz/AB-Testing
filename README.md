@@ -7,6 +7,7 @@ In this project, we're going to analyze an AB-test where we moved the first gate
 # Data explore and visualization
 We did first come data exploration to understand a bit more of the data set.
 
+There are 90189 lines of data and 5 columns:
 ![image](https://user-images.githubusercontent.com/96295365/154859206-583828a5-3e78-40df-bc17-7a6266fc691e.png)
 
 # Team
