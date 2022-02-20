@@ -59,7 +59,15 @@ Learning from【DataCamp Project】Mobile Games A/B Testing at kaggle, we also l
 
 ![image](https://user-images.githubusercontent.com/96295365/154860946-dce6aacc-fbbb-4f1e-a34a-c3ec912d784b.png)
 
+We explored the percentage of each version's game rounds times.
 
+Gate 30's player game rounds times
+
+![image](https://user-images.githubusercontent.com/96295365/154861093-55c459e6-cdd7-4fc1-8440-32a21654e121.png)
+
+Gate 40's player game rounds times
+
+![image](https://user-images.githubusercontent.com/96295365/154861116-5b8565fd-bafc-4daf-a503-3620dd0ff1b0.png)
 
 # Team
 Asieh Mirzabagherian H. & 
