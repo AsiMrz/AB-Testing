@@ -32,16 +32,27 @@ later on we looked into the average number of game rounds played by the player d
 ![image](https://user-images.githubusercontent.com/96295365/154860184-fee3ac8c-28e4-4897-94ef-68f01253c6b8.png)
 
 Compare the 2 game version (Gate 30 and Gate 40) in 2 retentions (1 day and 7 days) in pie chart.
+
 Gate 30 & retentions 1 day
+
 ![image](https://user-images.githubusercontent.com/96295365/154860454-330b4cdb-263d-4b99-97fe-ad63622ab4e4.png)
+
 Gate 30 & retentions 7 day
+
 ![image](https://user-images.githubusercontent.com/96295365/154860474-7057d541-fc92-4a2e-b241-694c63dc25f0.png)
+
 Gate 40 & retentions 1 day
+
 ![image](https://user-images.githubusercontent.com/96295365/154860485-0aa6cb66-a757-4fc8-987f-abcee10f9232.png)
+
 Gate 40 & retentions 7 day
+
 ![image](https://user-images.githubusercontent.com/96295365/154860505-2af90c62-dacb-4cbd-bc84-62a3e8edbb86.png)
+
 Compare the 2 game version (Gate 30 and Gate 40) in 2 retentions (1 day and 7 days) in table.
+
 ![image](https://user-images.githubusercontent.com/96295365/154860566-178cf5e8-e606-4038-8df6-c8da268aad2e.png)
+
 
 
 # Team
