@@ -6,6 +6,7 @@ Where should the gates be placed?
 In this project, we're going to analyze an AB-test where we moved the first gate in Cookie Cats from level 30 -control- to level 40 -test-. In particular, we will look at the impact on player retention.
 # Data explore and visualization
 We did first come data exploration to understand a bit more of the data set.
+
 ![image](https://user-images.githubusercontent.com/96295365/154859206-583828a5-3e78-40df-bc17-7a6266fc691e.png)
 
 # Team
