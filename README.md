@@ -53,6 +53,12 @@ Compare the 2 game version (Gate 30 and Gate 40) in 2 retentions (1 day and 7 da
 
 ![image](https://user-images.githubusercontent.com/96295365/154860566-178cf5e8-e606-4038-8df6-c8da268aad2e.png)
 
+Learning from【DataCamp Project】Mobile Games A/B Testing at kaggle, we also looking into each version's distribution of players.
+
+![image](https://user-images.githubusercontent.com/96295365/154860919-e26bf6d0-3be6-4ec8-8c3d-db514e7b008d.png)
+
+![image](https://user-images.githubusercontent.com/96295365/154860946-dce6aacc-fbbb-4f1e-a34a-c3ec912d784b.png)
+
 
 
 # Team
