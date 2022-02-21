@@ -69,7 +69,7 @@ Gate 40's player game rounds times
 
 ![image](https://user-images.githubusercontent.com/96295365/154861116-5b8565fd-bafc-4daf-a503-3620dd0ff1b0.png)
 
-#Hypothesis Testing
+# Hypothesis Testing
 
 Apply the Two-Sample T-Test. There are 2 samples - Gate 30 player and Gate 40 players. We want to know if thier number of game rounds played by each group of player during the first week after installation are different.
 
