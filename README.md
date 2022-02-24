@@ -80,7 +80,18 @@ The test yields a p-value of 0.3759, which means there is a 37.59% chance we'd s
 # Team
 Asieh Mirzabagherian H. & 
 Te-Hsin Tsai (Grace)
+
 # Collaboration Type
 Far distance via Slack, Trello, Colab and Github.
+
 # colab link
 https://colab.research.google.com/drive/1ogy2FdvZm5Hy1Ptw_duxXoZwU26i1Ozu?usp=sharing
+
+# Reference links
+https://www.kaggle.com/yufengsui/datacamp-project-mobile-games-a-b-testing/notebook
+https://www.kaggle.com/hamelg/python-for-data-24-hypothesis-testing
+https://youtu.be/CIbJSX-biu0
+https://youtu.be/pTmLQvMM-1M
+https://youtu.be/N4ZQQqyIf6k
+https://youtu.be/JQc3yx0-Q9E
+
