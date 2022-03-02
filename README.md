@@ -80,12 +80,41 @@ Gate 40's player game rounds times
 
 ![image](https://user-images.githubusercontent.com/96295365/154861116-5b8565fd-bafc-4daf-a503-3620dd0ff1b0.png)
 
-# Team
+## Sampling by Bootstraping 
+**Definition:** The basic idea of bootstrapping is that inference about a population from sample data (sample → population) can be modelled by resampling the sample data and performing inference about a sample from resampled data (resampled → sample). In bootstrap-resamples, the 'population' is in fact the sample, and this is known; hence the quality of inference of the 'true' sample from resampled data (resampled → sample) is measurable. (Wikipedia)
+
+      `boot_1d = []
+       boot_7d = []
+       for i in range(500):
+            boot_mean_1 = df.sample(frac=1, replace=True).groupby('version')['retention_1'].mean()
+            boot_mean_7 = df.sample(frac=1, replace=True).groupby('version')['retention_7'].mean()
+            boot_1d.append(boot_mean_1)
+            boot_7d.append(boot_mean_7)`
+    
+Here, we define a loop for making two separate random list of the bootstrapped means for each A/B group: the first day retention and the seventh retention.
+
+## AB Testing
+The kernel density estimate plot of the bootstrap distributions
+
+         `fig, (ax1,ax2) = plt.subplots(1, 2, sharey=True, figsize=(13,5))
+
+           boot_1d.plot.kde(ax=ax1)
+           ax1.set_xlabel("retantion rate",size=12)
+           ax1.set_ylabel("number of sample",size=12)
+           ax1.set_title("1 day retention rate distribution", fontweight="bold",size=14)
+           boot_7d.plot.kde(ax=ax2)
+           ax2.set_xlabel("retantion rate",size=12)
+           ax2.set_title("7 days retention rate distribution", fontweight="bold",size=14)
+           plt.show()`
+           
+           (image)
+
+## Team
 Asieh Mirzabagherian H. & 
 Te-Hsin Tsai (Grace)
 
-# Collaboration Type
+## Collaboration Type
 Far distance via Slack, Trello, Colab and Github.
 
-# colab link
+## colab link
 
