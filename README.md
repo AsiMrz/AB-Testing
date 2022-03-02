@@ -107,7 +107,7 @@ The kernel density estimate plot of the bootstrap distributions
            ax2.set_title("7 days retention rate distribution", fontweight="bold",size=14)
            plt.show()`
            
-           (image)
+![ABtesting](ABtesting.jpg)
 
 ## Team
 Asieh Mirzabagherian H. & 
