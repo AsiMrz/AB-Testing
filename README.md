@@ -33,7 +33,7 @@ later on we looked into the average number of game rounds played by the player d
 
 Compare the 2 game version (Gate 30 and Gate 40) in 2 retentions (1 day and 7 days) in pie chart.
 
-![image](https://user-images.githubusercontent.com/96295365/156412971-e46db47b-face-4c10-ad0c-04af39e5a689.png)
+![image](https://user-images.githubusercontent.com/96295365/156414131-31fe45d8-99d1-4c38-818b-6d4465683609.png)
 
 Compare the 2 game version (Gate 30 and Gate 40) in 2 retentions (1 day and 7 days) in table.
 
