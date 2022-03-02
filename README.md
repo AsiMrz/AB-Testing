@@ -1,33 +1,44 @@
 # AB-Testing
-Data exploration and analytics over AB testing on the Cookie Cats, a hugely popular mobile puzzle game developed by Tactile Entertainment. 
-# Problem
-Where should the gates be placed?
-# Solution
 In this project, we're going to analyze an AB-test where we moved the first gate in Cookie Cats from level 30 -control- to level 40 -test-. In particular, we will look at the impact on player retention.
-# Data explore and visualization
-We did first some data exploration to understand a bit more of the data set.
+Data exploration and analytics with AB testing on the Cookie Cats, a hugely popular mobile puzzle game developed by Tactile Entertainment. Variations of AB testing are the different Gates in level 30 and level 40.
+## Goal
+Finding out "Where should the gates be placed?"
 
-There are 90189 lines of data and 5 columns.
+## Process and Pipeline
+During the process, We analyze the player retentions 
+1. Data exploration
+2. Data Visualization
+3. Bootstrapping
+4. T-test
+(Picture)
+
+## Data Exploration and Visualisation
+Since the Dataset provided with[MÜRŞIDE YARKIN](https://www.kaggle.com/mursideyarkin/mobile-games-ab-testing-with-cookie-cats/notebook) did not need to be cleaned or any other extra work, we started straightly with Data Exploration.
+Meanwhile, we could learn a bit more about the data set.
+
+### Some General Info:
+
+The Dataset contains 90189 lines of data and 5 columns.
 
 ![image](https://user-images.githubusercontent.com/96295365/154859206-583828a5-3e78-40df-bc17-7a6266fc691e.png)
 
 ![image](https://user-images.githubusercontent.com/96295365/154859360-b4936f31-be2a-440f-a887-0cb556f1a7c7.png)
 
-We look into how many kinds of data are in each columns.
+**Data types:** We look into how many kinds of data are in each column.
 
 ![image](https://user-images.githubusercontent.com/96295365/154859431-6425905b-88a1-4efe-8850-8be0d2a04a68.png)
 
-There are no missing data in the data set.
+There are **no missing data** in the data set.
 
 ![image](https://user-images.githubusercontent.com/96295365/154859492-d5c558d2-c30f-4395-9a42-233c01bb609e.png)
 
-We want to know how many data are in each test, and the resouls shows the are about the same amount.
+Since the test will be on the comparison of two gates, we **compare the number of users** in both. As the results show they are about the same amount.
 
 ![image](https://user-images.githubusercontent.com/96295365/154860100-208ab406-9e71-4639-9791-3c41f2017113.png)
 
 ![image](https://user-images.githubusercontent.com/96295365/154860082-74a80628-4e5c-47f5-8e49-1a828b8264d2.png)
 
-later on we looked into the average number of game rounds played by the player during the first week after installation for each version. 
+Later on, we looked into the average number of game-rounds played by the player during the **first week** after installation for each version of gates. 
 
 ![image](https://user-images.githubusercontent.com/96295365/154860184-fee3ac8c-28e4-4897-94ef-68f01253c6b8.png)
 
@@ -72,7 +83,9 @@ Gate 40's player game rounds times
 # Team
 Asieh Mirzabagherian H. & 
 Te-Hsin Tsai (Grace)
+
 # Collaboration Type
 Far distance via Slack, Trello, Colab and Github.
+
 # colab link
-https://colab.research.google.com/drive/1ogy2FdvZm5Hy1Ptw_duxXoZwU26i1Ozu?usp=sharing
+
