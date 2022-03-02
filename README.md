@@ -69,10 +69,29 @@ Gate 40's player game rounds times
 
 ![image](https://user-images.githubusercontent.com/96295365/154861116-5b8565fd-bafc-4daf-a503-3620dd0ff1b0.png)
 
+# Hypothesis Testing
+
+Apply the Two-Sample T-Test. There are 2 samples - Gate 30 player and Gate 40 players. We want to know if thier number of game rounds played by each group of player during the first week after installation are different.
+
+![image](https://user-images.githubusercontent.com/96295365/155020438-6b6afd75-2677-46aa-8a67-9856f1d1f52c.png)
+
+The test yields a p-value of 0.3759, which means there is a 37.59% chance we'd see sample data this far apart if the two groups tested are actually identical. If we were using a 95% confidence level we would fail to reject the null hypothesis (we are accepting null hypothesis), since the p-value is greater than the corresponding significance level of 5%.
+
 # Team
 Asieh Mirzabagherian H. & 
 Te-Hsin Tsai (Grace)
+
 # Collaboration Type
 Far distance via Slack, Trello, Colab and Github.
+
 # colab link
 https://colab.research.google.com/drive/1ogy2FdvZm5Hy1Ptw_duxXoZwU26i1Ozu?usp=sharing
+
+# Reference links
+https://www.kaggle.com/yufengsui/datacamp-project-mobile-games-a-b-testing/notebook
+https://www.kaggle.com/hamelg/python-for-data-24-hypothesis-testing
+https://youtu.be/CIbJSX-biu0
+https://youtu.be/pTmLQvMM-1M
+https://youtu.be/N4ZQQqyIf6k
+https://youtu.be/JQc3yx0-Q9E
+
