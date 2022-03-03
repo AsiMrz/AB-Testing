@@ -104,10 +104,9 @@ We are certain of the difference between the two gates in different retentions b
 There are a couple of ways we can get at the certainty of these retention numbers. Here we will use bootstrapping:
 
 ## Bootstraping 
-**Definition:** The basic idea of bootstrapping is that inference about a population from sample data (sample → population) can be modelled by resampling the sample data and performing inference about a sample from resampled data (resampled → sample). In bootstrap-resamples, the 'population' is in fact the sample, and this is known; hence the quality of inference of the 'true' sample from resampled data (resampled → sample) is measurable. (Wikipedia)
+**Definition** The basic idea of bootstrapping is that inference about a population from sample data (sample → population) can be modeled by resampling the sample data and performing inference about a sample from resampled data (resampled → sample). In bootstrap-resamples, the 'population' is in fact the sample, and this is known; hence the quality of inference of the 'true' sample from resampled data (resampled → sample) is measurable. (Wikipedia)
 
-**Resampling with Bootstrapping**
-Here, we define a loop for making two separate random list of the bootstrapped means for each A/B group: the first day retention and the seventh retention.In this way, the variation in these retention will give us an indication of how uncertain the retention numbers are.
+Resampling with Bootstrapping Here, we define a loop for making two separate random lists of the bootstrapped means for each A/B group: the first-day retention and the seventh retention. In this way, the variation in these retentions will give us an indication of how uncertain the retention numbers are.
 
 
       `boot_1d = []
@@ -118,7 +117,6 @@ Here, we define a loop for making two separate random list of the bootstrapped m
             boot_1d.append(boot_mean_1)
             boot_7d.append(boot_mean_7)`
     
-**Calculating 1-day & 7-days retentions for A/B groups**
 
 
 **Plotting the bootstrap distributions**
@@ -137,7 +135,7 @@ The kernel density estimate plot of the bootstrap distributions
            
 ![ABtesting](https://github.com/AsiMrz/AB-Testing/blob/7e735c93de97c6408c8d34bd5590b07bf5ae226c/ABtesting.jpg)
 
-We see that 95% **Confidence Interval** covers 0, so we cannot reject the Hypothesis that the Gate 40 has less retention in both 1-day and 7-day.
+We see that 95% **Confidence Interval** covers 0, so we cannot reject the Hypothesis that Gate 40 has less retention in both 1-day and 7-day.
 
 ## T-Test
 
