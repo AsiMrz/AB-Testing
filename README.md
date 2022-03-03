@@ -1,6 +1,6 @@
 # AB-Testing
-In this project, we're going to analyze an AB-test where we moved the first gate in Cookie Cats from level 30 -control- to level 40 -test-. In particular, we will look at the impact on player retention.
-Data exploration and analytics with AB testing on the Cookie Cats, a hugely popular mobile puzzle game developed by Tactile Entertainment. Variations of AB testing are the different Gates in level 30 and level 40.
+This project is a data analytics with AB testing on the Cookie Cats, a popular mobile puzzle game developed by Tactile Entertainment. Variations of AB testing are the different Gates in level 30 and level 40. In the provided dataset by  [MÜRŞIDE YARKIN](https://www.kaggle.com/mursideyarkin/mobile-games-ab-testing-with-cookie-cats/notebook), the first gate in Cookie Cats is moved from level 30 -control- to level 40 -test- for exploring the impact on player retention.
+
 ## Goal
 Finding out "Where should the gates be placed?"
 
@@ -13,7 +13,7 @@ During the process, We analyze the player retentions
 (Picture)
 
 ## Data Exploration and Visualisation
-Since the Dataset provided with[MÜRŞIDE YARKIN](https://www.kaggle.com/mursideyarkin/mobile-games-ab-testing-with-cookie-cats/notebook) did not need to be cleaned or any other extra work, we started straightly with Data Exploration.
+Since the provided Dataset did not need to be cleaned or any other extra work, we started straightly with Data Exploration.
 Meanwhile, we could learn a bit more about the data set.
 
 ### Some General Info:
