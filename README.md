@@ -83,6 +83,10 @@ Gate 40's player game rounds times
 
 ![image](https://user-images.githubusercontent.com/96295365/154861116-5b8565fd-bafc-4daf-a503-3620dd0ff1b0.png)
 
+However for AB-testing we will focus on the First day and one week Retention on the two different gates.So we consider the sum percentage of players that come back and play the game 1-day and 7-days after they have installed it.
+**Why** do we fouce on Retention? A common metric in the game industry for how fun and engaging a game is retention. The higher retention is, the easier it is to retain players and the Game is much more successful.
+
+
 ## Sampling by Bootstraping 
 **Definition:** The basic idea of bootstrapping is that inference about a population from sample data (sample → population) can be modelled by resampling the sample data and performing inference about a sample from resampled data (resampled → sample). In bootstrap-resamples, the 'population' is in fact the sample, and this is known; hence the quality of inference of the 'true' sample from resampled data (resampled → sample) is measurable. (Wikipedia)
 
