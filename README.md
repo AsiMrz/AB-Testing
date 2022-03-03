@@ -61,9 +61,6 @@ Gate 40 & retentions 7 day
 
 ![image](https://user-images.githubusercontent.com/96295365/154860505-2af90c62-dacb-4cbd-bc84-62a3e8edbb86.png)
 
-As it is schown in this table, we can see there a slight difference between the percentage of the users who came back after one day and one week in different gates.
-
-![image](https://user-images.githubusercontent.com/96295365/154860566-178cf5e8-e606-4038-8df6-c8da268aad2e.png)
 
 **The distribution of game rounds** 
 Learning from【DataCamp Project】Mobile Games A/B Testing at kaggle, we also looking into each version's distribution of players. In the plot below we can see that some players install the game but then never play it (0 game rounds).
@@ -96,7 +93,15 @@ So, a little less than half of the players come back one day after installing th
 **Why do we focus on Retention?** A common metric in the game industry for how fun and engaging a game is retention. The higher retention is, the easier it is to retain players and the Game is much more successful.
 
 
-It's a small change, but even small changes in retention can have a large impact. But while we are certain of the difference in the data, how certain should we be that a gate at level 40 will be worse in the future?
+![image](https://user-images.githubusercontent.com/96295365/154860566-178cf5e8-e606-4038-8df6-c8da268aad2e.png)
+
+As it is shown in this table, we can see there a slight difference between the percentage of the users who came back after one day and one week in different gates.It's a small change, but even small changes in retention can have a large impact.
+
+
+We are certain of the difference between the two gates in different retentions but how certain should we be that a gate at level 40 will be worse in the future?
+
+**Hypothesis**
+The Gate 40 has less retention in both 1-day and 7-day.
 
 
 ## Sampling by Bootstraping 
