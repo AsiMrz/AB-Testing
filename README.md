@@ -1,8 +1,9 @@
 # AB-Testing
-This project is a data analytics with AB testing on the Cookie Cats, a popular mobile puzzle game developed by Tactile Entertainment. Variations of AB testing are the different Gates in level 30 and level 40. In the provided dataset by  [MÜRŞIDE YARKIN](https://www.kaggle.com/mursideyarkin/mobile-games-ab-testing-with-cookie-cats/notebook), the first gate in Cookie Cats is moved from level 30 -control- to level 40 -test- for exploring the impact on player retention.
+This project is a data analytics with AB testing on the Cookie Cats, a popular mobile puzzle game developed by Tactile Entertainment. Variations of AB testing are the different Gates in level 30 and level 40. In the provided dataset by  [MÜRŞIDE YARKIN](https://www.kaggle.com/mursideyarkin/mobile-games-ab-testing-with-cookie-cats/notebook), the first gate in Cookie Cats is moved from level 30 -control- to level 40 -test- for exploring the impact on player retention. When a player installed the game, he or she was randomly assigned to either gate_30 or gate_40.
 
 ## Goal
 Finding out "Where should the gates be placed?"
+![Gates Picture](https://github.com/AsiMrz/AB-Testing/blob/507755ce9d0c8b0abbf3ee3d16a55f3139f84fa0/cc_gates.png)
 
 ## Process and Pipeline
 During the process, We analyze the player retentions 
@@ -64,7 +65,7 @@ Compare the 2 game version (Gate 30 and Gate 40) in 2 retentions (1 day and 7 da
 
 ![image](https://user-images.githubusercontent.com/96295365/154860566-178cf5e8-e606-4038-8df6-c8da268aad2e.png)
 
-Learning from【DataCamp Project】Mobile Games A/B Testing at kaggle, we also looking into each version's distribution of players.
+**The distribution of game rounds** Learning from【DataCamp Project】Mobile Games A/B Testing at kaggle, we also looking into each version's distribution of players.
 
 ![image](https://user-images.githubusercontent.com/96295365/154860919-e26bf6d0-3be6-4ec8-8c3d-db514e7b008d.png)
 
