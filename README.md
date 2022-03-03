@@ -12,7 +12,6 @@ During the process, We analyze the player retentions
 2. Data Visualization
 3. Bootstrapping
 4. T-test
-(Picture)
 
 ## Data Exploration and Visualisation
 Since the provided Dataset did not need to be cleaned or any other extra work, we started straightly with Data Exploration.
@@ -94,7 +93,7 @@ However for AB-testing we will focus on the First day and one week Retention on 
 
 So, a little less than half of the players come back one day after installing the game. 18 percent of the players come back 7 day after installing the game.
 
-**Why** do we fouce on Retention? A common metric in the game industry for how fun and engaging a game is retention. The higher retention is, the easier it is to retain players and the Game is much more successful.
+**Why do we focus on Retention?** A common metric in the game industry for how fun and engaging a game is retention. The higher retention is, the easier it is to retain players and the Game is much more successful.
 
 
 It's a small change, but even small changes in retention can have a large impact. But while we are certain of the difference in the data, how certain should we be that a gate at level 40 will be worse in the future?
