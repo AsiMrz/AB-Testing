@@ -97,15 +97,18 @@ So, a little less than half of the players come back one day after installing th
 
 As it is shown in this table, we can see there a slight difference between the percentage of the users who came back after one day and one week in different gates.It's a small change, but even small changes in retention can have a large impact.
 
-
-We are certain of the difference between the two gates in different retentions but how certain should we be that a gate at level 40 will be worse in the future?
-
 **Hypothesis**
 The Gate 40 has less retention in both 1-day and 7-day.
 
+We are certain of the difference between the two gates in different retentions but how certain should we be that a gate at level 40 will be worse in the future?
+There are a couple of ways we can get at the certainty of these retention numbers. Here we will use bootstrapping:
 
-## Sampling by Bootstraping 
+## Bootstraping 
 **Definition:** The basic idea of bootstrapping is that inference about a population from sample data (sample → population) can be modelled by resampling the sample data and performing inference about a sample from resampled data (resampled → sample). In bootstrap-resamples, the 'population' is in fact the sample, and this is known; hence the quality of inference of the 'true' sample from resampled data (resampled → sample) is measurable. (Wikipedia)
+
+**Resampling with Bootstrapping**
+Here, we define a loop for making two separate random list of the bootstrapped means for each A/B group: the first day retention and the seventh retention.In this way, the variation in these retention will give us an indication of how uncertain the retention numbers are.
+
 
       `boot_1d = []
        boot_7d = []
@@ -115,9 +118,10 @@ The Gate 40 has less retention in both 1-day and 7-day.
             boot_1d.append(boot_mean_1)
             boot_7d.append(boot_mean_7)`
     
-Here, we define a loop for making two separate random list of the bootstrapped means for each A/B group: the first day retention and the seventh retention.
+**Calculating 1-day & 7-days retentions for A/B groups**
 
-## AB Testing
+
+**Plotting the bootstrap distributions**
 The kernel density estimate plot of the bootstrap distributions
 
          `fig, (ax1,ax2) = plt.subplots(1, 2, sharey=True, figsize=(13,5))
@@ -132,6 +136,8 @@ The kernel density estimate plot of the bootstrap distributions
            plt.show()`
            
 ![ABtesting](https://github.com/AsiMrz/AB-Testing/blob/7e735c93de97c6408c8d34bd5590b07bf5ae226c/ABtesting.jpg)
+
+We see that 95% **Confidence Interval** covers 0, so we cannot reject the Hypothesis that the Gate 40 has less retention in both 1-day and 7-day.
 
 ## Team
 Asieh Mirzabagherian H. & 
