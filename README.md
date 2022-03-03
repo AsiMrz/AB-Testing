@@ -46,13 +46,16 @@ Later on, we looked into the average number of game-rounds played by the player 
 
 **The comparison of the 2 game version (Gate 30 and Gate 40) in 2 retentions (1 day and 7 days)**
 
-Gate 30 & retentions 1 day______________________________________________________Gate 30 & retentions 7 day
+Gate 30 & retentions 1 day 
+![image](https://user-images.githubusercontent.com/96295365/154860454-330b4cdb-263d-4b99-97fe-ad63622ab4e4.png)
+Gate 30 & retentions 7 day
+![image](https://user-images.githubusercontent.com/96295365/154860474-7057d541-fc92-4a2e-b241-694c63dc25f0.png)
 
-![image](https://user-images.githubusercontent.com/96295365/154860454-330b4cdb-263d-4b99-97fe-ad63622ab4e4.png) ___________________________![image](https://user-images.githubusercontent.com/96295365/154860474-7057d541-fc92-4a2e-b241-694c63dc25f0.png)
+Gate 40 & retentions 1 day
+![image](https://user-images.githubusercontent.com/96295365/154860485-0aa6cb66-a757-4fc8-987f-abcee10f9232.png)
 
-Gate 40 & retentions 1 day ______________________________________________________ Gate 40 & retentions 7 day
-
-![image](https://user-images.githubusercontent.com/96295365/154860485-0aa6cb66-a757-4fc8-987f-abcee10f9232.png)____________________________![image](https://user-images.githubusercontent.com/96295365/154860505-2af90c62-dacb-4cbd-bc84-62a3e8edbb86.png)
+Gate 40 & retentions 7 day
+![image](https://user-images.githubusercontent.com/96295365/154860505-2af90c62-dacb-4cbd-bc84-62a3e8edbb86.png)
 
 As it is schown in this table, we can see there a slight difference between the percentage of the users who came back after one day and one week in different gates.
 
