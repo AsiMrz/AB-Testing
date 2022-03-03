@@ -49,6 +49,7 @@ Later on, we looked into the average number of game-rounds played by the player 
 Gate 30 & retentions 1 day 
 
 ![image](https://user-images.githubusercontent.com/96295365/154860454-330b4cdb-263d-4b99-97fe-ad63622ab4e4.png)
+
 Gate 30 & retentions 7 day
 
 ![image](https://user-images.githubusercontent.com/96295365/154860474-7057d541-fc92-4a2e-b241-694c63dc25f0.png)
