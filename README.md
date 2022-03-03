@@ -139,9 +139,9 @@ The kernel density estimate plot of the bootstrap distributions
 
 We see that 95% **Confidence Interval** covers 0, so we cannot reject the Hypothesis that the Gate 40 has less retention in both 1-day and 7-day.
 
-##T-Test
+## T-Test
 
-##Conclusion
+## Conclusion
 
 ## Team
 Asieh Mirzabagherian H. & 
