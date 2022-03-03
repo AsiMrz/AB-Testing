@@ -4,7 +4,7 @@ This project is a data analytics with AB testing on the Cookie Cats, a popular m
 ## Goal
 Finding out "Where should the gates be placed?"
 
-![Gates Picture](https://github.com/AsiMrz/AB-Testing/blob/507755ce9d0c8b0abbf3ee3d16a55f3139f84fa0/cc_gates.png)
+                                  ![Gates Picture](https://github.com/AsiMrz/AB-Testing/blob/507755ce9d0c8b0abbf3ee3d16a55f3139f84fa0/cc_gates.png)
 
 ## Process and Pipeline
 During the process, We analyze the player retentions 
