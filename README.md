@@ -50,7 +50,7 @@ Gate 30 & retentions 1 day                               Gate 30 & retentions 7 
 
 ![image](https://user-images.githubusercontent.com/96295365/154860454-330b4cdb-263d-4b99-97fe-ad63622ab4e4.png)![image](https://user-images.githubusercontent.com/96295365/154860474-7057d541-fc92-4a2e-b241-694c63dc25f0.png)
 
-Gate 40 & retentions 1 day                               Gate 40 & retentions 7 day
+Gate 40 & retentions 1 day >>>>>>>>>>>>>>>>>                              Gate 40 & retentions 7 day
 
 ![image](https://user-images.githubusercontent.com/96295365/154860485-0aa6cb66-a757-4fc8-987f-abcee10f9232.png) ![image](https://user-images.githubusercontent.com/96295365/154860505-2af90c62-dacb-4cbd-bc84-62a3e8edbb86.png)
 
@@ -65,7 +65,7 @@ Learning from【DataCamp Project】Mobile Games A/B Testing at kaggle, we also l
 
 ![image](https://user-images.githubusercontent.com/96295365/154860946-dce6aacc-fbbb-4f1e-a34a-c3ec912d784b.png)
 
-We explored the percentage of each version's game rounds times.
+We explored the user behavior with campring the percentage of each version's game rounds times.
 
 Gate 30's player game rounds times
 
