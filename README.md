@@ -83,8 +83,21 @@ Gate 40's player game rounds times
 
 ![image](https://user-images.githubusercontent.com/96295365/154861116-5b8565fd-bafc-4daf-a503-3620dd0ff1b0.png)
 
-However for AB-testing we will focus on the First day and one week Retention on the two different gates.So we consider the sum percentage of players that come back and play the game 1-day and 7-days after they have installed it.
+However for AB-testing we will focus on the First day and one week Retention on the two different gates.So we consider the retention ratio can show us the percentage of the players that come back and play the game 1-day and 7-days after they have installed it.
+
+      `df_retention = df[["retention_1","retention_7"]].mean()*100
+       print(f"1-day retention ratio: {round(df_retention[0],2)}% \
+       \n7-days retention ratio: {round(df_retention[1],2)}%")`
+       
+        1-day retention ratio: 44.52%       
+        7-days retention ratio: 18.61%
+
+So, a little less than half of the players come back one day after installing the game. 18 percent of the players come back 7 day after installing the game.
+
 **Why** do we fouce on Retention? A common metric in the game industry for how fun and engaging a game is retention. The higher retention is, the easier it is to retain players and the Game is much more successful.
+
+
+It's a small change, but even small changes in retention can have a large impact. But while we are certain of the difference in the data, how certain should we be that a gate at level 40 will be worse in the future?
 
 
 ## Sampling by Bootstraping 
